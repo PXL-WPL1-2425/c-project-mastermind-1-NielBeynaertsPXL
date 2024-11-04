@@ -1,0 +1,17 @@
+﻿<Window x:Class="C_project_Mastermind_NielBeynaerts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:C_project_Mastermind_NielBeynaerts"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Klik op 1 van de boxen om een kleur te kiezen" HorizontalAlignment="Center" Margin="0,41,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="color1Button" Content="Kleur 1" HorizontalAlignment="Left" Margin="215,72,0,0" VerticalAlignment="Top" Height="73" Width="90" Click="color1Button_Click"/>
+        <Button x:Name="color2Button" Content="Kleur 2" HorizontalAlignment="Left" Margin="310,72,0,0" VerticalAlignment="Top" Height="73" Width="90" Click="color2Button_Click"/>
+        <Button x:Name="color3Button" Content="Kleur 3" HorizontalAlignment="Left" Margin="404,72,0,0" VerticalAlignment="Top" Height="73" Width="90" Click="color3Button_Click"/>
+        <Button x:Name="color4Button" Content="Kleur 4" HorizontalAlignment="Left" Margin="499,72,0,0" VerticalAlignment="Top" Height="73" Width="90" Click="color4Button_Click"/>
+        <Button x:Name="validateColorCode" Content="Controleer kleurcode" HorizontalAlignment="Center" Height="23" Margin="0,273,0,0" VerticalAlignment="Top" Width="306"/>
+    </Grid>
+</Window>
