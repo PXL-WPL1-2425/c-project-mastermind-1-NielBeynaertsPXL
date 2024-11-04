@@ -22,7 +22,7 @@ namespace C_project_Mastermind_NielBeynaerts
             InitializeComponent();
 
             SolidColorBrush[] colors = { Brushes.Red, Brushes.Yellow, Brushes.Green, Brushes.Blue, Brushes.White, Brushes.Orange };
-            string[] colorsName = { "red", "yellow", "green", "blue", "white", "orange" };
+            string[] colorsName = { "Red", "Yellow", "Green", "Blue", "White", "Orange" };
             int[] randomColors = new int[4];
 
             Random rnd = new Random();
@@ -36,19 +36,15 @@ namespace C_project_Mastermind_NielBeynaerts
 
 
 
-
-
-
-
         private void color1Button_Click(object sender, RoutedEventArgs e)
         {
-            radioButtonsGroupBox.Visibility = Visibility.Visible;
 
         }
 
         private void color2Button_Click(object sender, RoutedEventArgs e)
         {
             radioButtonsGroupBox.Visibility = Visibility.Visible;
+
 
         }
 
