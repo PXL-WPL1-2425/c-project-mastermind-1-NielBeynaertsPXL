@@ -13,5 +13,16 @@
         <Button x:Name="color3Button" Content="Kleur 3" HorizontalAlignment="Left" Margin="404,72,0,0" VerticalAlignment="Top" Height="73" Width="90" Click="color3Button_Click"/>
         <Button x:Name="color4Button" Content="Kleur 4" HorizontalAlignment="Left" Margin="499,72,0,0" VerticalAlignment="Top" Height="73" Width="90" Click="color4Button_Click"/>
         <Button x:Name="validateColorCode" Content="Controleer kleurcode" HorizontalAlignment="Center" Height="23" Margin="0,273,0,0" VerticalAlignment="Top" Width="306"/>
+
+        <GroupBox x:Name="radioButtonsGroupBox" Header="Kleuren" HorizontalAlignment="Left" Margin="224,154,0,0" VerticalAlignment="Top" Visibility="Hidden">
+            <StackPanel Orientation="Horizontal">
+                <RadioButton Content="Rood" Margin="0,0,10,0" VerticalAlignment="Center"/>
+                <RadioButton Content="Geel" Margin="0,0,10,0" VerticalAlignment="Center"/>
+                <RadioButton Content="Blauw" Margin="0,0,10,0" VerticalAlignment="Center"/>
+                <RadioButton Content="Oranje" Margin="0,0,10,0" VerticalAlignment="Center"/>
+                <RadioButton Content="Groen" Margin="0,0,10,0" VerticalAlignment="Center"/>
+                <RadioButton Content="Wit" Margin="0,0,10,0" VerticalAlignment="Center"/>
+            </StackPanel>
+        </GroupBox>
     </Grid>
 </Window>
