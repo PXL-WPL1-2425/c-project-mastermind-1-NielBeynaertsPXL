@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="Klik op 1 van de boxen om een kleur te kiezen" HorizontalAlignment="Center" Margin="0,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="Klik op 1 van de boxen om een kleur te kiezen" HorizontalAlignment="Center" Margin="0,31,0,0" VerticalAlignment="Top"/>
         <Button x:Name="color1Button" Content="Kleur 1" HorizontalAlignment="Left" Margin="215,72,0,0" VerticalAlignment="Top" Height="73" Width="90" Click="color1Button_Click"/>
         <Button x:Name="color2Button" Content="Kleur 2" HorizontalAlignment="Left" Margin="310,72,0,0" VerticalAlignment="Top" Height="73" Width="90" Click="color2Button_Click"/>
         <Button x:Name="color3Button" Content="Kleur 3" HorizontalAlignment="Left" Margin="404,72,0,0" VerticalAlignment="Top" Height="73" Width="90" Click="color3Button_Click"/>
         <Button x:Name="color4Button" Content="Kleur 4" HorizontalAlignment="Left" Margin="499,72,0,0" VerticalAlignment="Top" Height="73" Width="90" Click="color4Button_Click"/>
-        <Button x:Name="validateColorCode" Content="Controleer kleurcode" HorizontalAlignment="Center" Height="23" Margin="0,273,0,0" VerticalAlignment="Top" Width="306"/>
+        <Button x:Name="validateColorCode" Content="Controleer kleurcode" HorizontalAlignment="Center" Height="23" Margin="0,273,0,0" VerticalAlignment="Top" Width="306" Click="validateColorCode_Click"/>
 
-        <GroupBox x:Name="radioButtonsGroupBox" Header="Kleuren" HorizontalAlignment="Left" Margin="224,154,0,0" VerticalAlignment="Top" Visibility="Visible">
+        <GroupBox x:Name="radioButtonsGroupBox" Header="Kleuren" HorizontalAlignment="Left" Margin="224,154,0,0" VerticalAlignment="Top" Visibility="Hidden">
             <StackPanel Orientation="Horizontal">
                 <RadioButton x:Name="redRadioButton" Content="Rood" Margin="0,0,10,0" VerticalAlignment="Center" Checked="RadioButton_Checked"/>
                 <RadioButton x:Name="yellowRadioButton" Content="Geel" Margin="0,0,10,0" VerticalAlignment="Center" Checked="RadioButton_Checked"/>
@@ -24,5 +24,7 @@
                 <RadioButton x:Name="whiteRadioButton" Content="Wit" Margin="0,0,10,0" VerticalAlignment="Center" Checked="RadioButton_Checked"/>
             </StackPanel>
         </GroupBox>
+
+
     </Grid>
 </Window>
